@@ -4,7 +4,7 @@ CC=gcc
 CFLAGS = -g -Wall   -pthread
  
 # 目标文件
-TARGET:pthread_more pthread_test
+TARGET:pthread_more pthread_test share_ptd ptd_join ptd_join2 ptd_detach ptd_attr_detach
 $(TARGET):${OBJ}
 	$(CC)    $^  -o  $@    $(CFLAGS) 
 
