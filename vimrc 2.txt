@@ -17,6 +17,8 @@ exec "nohlsearch"
 set incsearch
 set smartcase
 set relativenumber
+set ts=4 
+set expandtab
 
 map sr :set splitright<CR>:vsplit<CR>
 map sl :set nosplitright<CR>:vsplit<CR>
