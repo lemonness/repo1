@@ -2,10 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdio.h>
-
-void test();
-extern int val;
-extern char buf[20];
+#include"test1.h"
 
 int main()
 {
